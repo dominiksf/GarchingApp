@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news"
+        android:title="Nachrichten"
+        android:icon="@drawable/news">
+
+    </item>
+
+    <item
+        android:id="@+id/restaurants"
+        android:title="Restaurants"
+        android:icon="@drawable/restaurants"
+        >
+
+    </item>
+
+
+    <item android:title="Informationen">
+        <menu>
+
+            <item
+                android:id="@+id/administration"
+                android:title="Rathaus"
+                android:icon="@drawable/administration"></item>
+
+            <item
+                android:id="@+id/facilities"
+                android:title="Einrichtungen"
+                android:icon="@drawable/facilities">
+
+            </item>
+
+        </menu>
+    </item>
+
+    <item android:title="Service">
+        <menu>
+
+            <item
+                android:id="@+id/links"
+                android:title="Links"
+                android:icon="@drawable/web">
+
+            </item>
+
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:title="Sonstiges"
+        >
+
+        <menu
+            >
+
+            <item
+
+                android:id="@+id/settings"
+                android:title="Einstellungen"
+                android:icon="@drawable/ic_baseline_settings_24"
+                >
+
+            </item>
+
+            <item
+                android:id="@+id/credits"
+                android:title="Impressum"
+                android:icon="@drawable/credits"
+                >
+
+            </item>
+
+
+        </menu>
+
+    </item>
+
+</menu>

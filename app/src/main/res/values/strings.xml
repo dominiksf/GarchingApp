@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Stadt Garching</string>
+    <string name="General">Allgemeines:</string>
+    <string name="openingHours">Öffnungszeiten:</string>
+    <string name="generalInformation">Allgemeine Informationen</string>
+    <string name="usefulLinks">Nützliche Links</string>
+    <string name="credits">Impressum</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open" />
+    <string name="closed" />
+</resources>

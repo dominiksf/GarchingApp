@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:fontFamily="@font/game_font"
+        android:text="Impressum"
+        android:textColor="@color/text"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="App-Entwickler: "
+        android:textColor="@color/text"
+        android:textSize="17sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:fontFamily="@font/game_font"
+        android:text="Dominik Scharpf"
+        android:textColor="@color/text"
+        android:textSize="17sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="Hinweis: "
+        android:textColor="@color/text"
+        android:textSize="17sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:fontFamily="@font/game_font"
+        android:text="Es handelt sich hierbei um eine inoffizielle App, die nützliche Informationen über die Stadt Garching bereitstellt. Für falsche Angaben innerhalb der App und auf den verlinkten Seiten wird keinerlei Gewähr übernommen. Technische Fehler sowie Verbesserungswünsche dürfen gerne mitgeteilt werden."
+        android:textColor="@color/text"
+        android:textSize="17sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shareApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="40dip"
+            app:icon="@mipmap/share"
+            android:text="Teilen"
+
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/GooglePlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="40dip"
+            app:icon="@mipmap/google_play"
+            android:text="Bewerten"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/featureRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="40dip"
+            app:icon="@mipmap/mail"
+            android:text="Kontakt"
+            android:layout_marginBottom="10dip"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

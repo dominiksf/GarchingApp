@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dip">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/game_font"
+
+        android:text="Allgemeines"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Switch
+        android:id="@+id/darkMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dunkelmodus"
+        android:fontFamily="@font/game_font"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dip"
+        >
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/sounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Töne"
+        android:fontFamily="@font/game_font"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dip"
+        >
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/vibrations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrationen"
+        android:fontFamily="@font/game_font"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dip"
+        >
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Notifications"
+        android:fontFamily="@font/game_font"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dip"
+        >
+
+    </Switch>
+
+
+
+</LinearLayout>

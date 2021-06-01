@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="Stadt-Bücherei Garching"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/game_font"
+        android:text="Öffnungszeiten: \nMontag: 11 - 20 Uhr\nDienstag bis Freitag: 11 - 18 Uhr\nJeder 1.Samstag im Monat: 9 - 13 Uhr"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:fontFamily="@font/game_font"
+        android:text="Adresse: Bürgerplatz 11"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="Neue Pfarrkirche St. Severin"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:fontFamily="@font/game_font"
+        android:text="Adresse: Poststraße 8"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="Alte Pfarrkirche St. Katharina"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/game_font"
+        android:text="Adresse: Münchner Str. 13 (Ortszentrum)"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/game_font"
+        android:text=""
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:fontFamily="@font/game_font"
+        android:text="Wertstoffhof Garching"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/game_font"
+        android:text="Öffnungszeiten: \nMontag: 16 - 19 Uhr\nMittwoch: 9 - 12 Uhr\nDonnerstag: 16 - 19 Uhr\nFreitag: 14 - 17 Uhr\nSamstag: 9 - 13 Uhr"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:fontFamily="@font/game_font"
+        android:text="Adresse: Brunnenweg"
+        android:textColor="@color/text"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+</LinearLayout>

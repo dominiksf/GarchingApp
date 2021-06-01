@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dip"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Impressum"
+        android:textSize="25sp"
+        android:fontFamily="@font/game_font"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_marginBottom="20dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App-Entwickler: "
+        android:textSize="17sp"
+        android:fontFamily="@font/game_font"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_marginBottom="5dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dominik Scharpf"
+        android:fontFamily="@font/game_font"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:layout_marginBottom="20dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontakt: "
+        android:fontFamily="@font/game_font"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_marginBottom="5dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dominiksf@hotmail.de"
+        android:fontFamily="@font/game_font"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:layout_marginBottom="20dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haftungsausschluss: "
+        android:fontFamily="@font/game_font"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_marginBottom="5dip"
+        >
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/credits6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haftung für Links"
+        android:textSize="17sp"
+        android:fontFamily="@font/game_font"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_marginBottom="5dip"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/credits7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dieses Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte kein Einfluss vorhanden ist. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt."
+        android:textSize="15sp"
+        android:fontFamily="@font/game_font"
+        android:textColor="@color/text"
+        android:layout_marginBottom="20dip"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

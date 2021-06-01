@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main.xml"
+    app:startDestination="@id/news">
+
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.garchingnews.news.NewsFragment"
+        android:label="Nachrichten" />
+
+    <fragment
+        android:id="@+id/administration"
+        android:name="com.example.garchingnews.information.AdministrationFragment"
+        android:label="Rathaus" />
+    <fragment
+        android:id="@+id/links"
+        android:name="com.example.garchingnews.information.LinksFragment"
+        android:label="Links" />
+    <fragment
+        android:id="@+id/credits"
+        android:name="com.example.garchingnews.main.CreditsFragment"
+        android:label="Impressum" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.garchingnews.main.MainActivity"
+        android:label="Start" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.garchingnews.main.SettingsFragment"
+        android:label="Einstellungen" />
+    <fragment
+        android:id="@+id/facilities"
+        android:name="com.example.garchingnews.information.FacilitiesFragment"
+        android:label="Einrichtungen" />
+    <fragment
+        android:id="@+id/restaurants"
+        android:name="com.example.garchingnews.restaurant.RestaurantsFragment"
+        android:label="Restaurants" />
+
+</navigation>
