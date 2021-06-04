@@ -31,7 +31,7 @@
         android:label="Einstellungen" />
     <fragment
         android:id="@+id/facilities"
-        android:name="com.example.garchingnews.information.FacilitiesFragment"
+        android:name="com.example.garchingnews.facilities.FacilitiesFragment"
         android:label="Einrichtungen" />
     <fragment
         android:id="@+id/restaurants"

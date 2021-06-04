@@ -24,7 +24,7 @@
         android:text="@string/General"
         android:textColor="@color/text"
         android:textSize="20sp"
-        android:fontFamily="@font/game_font"
+        android:fontFamily="@font/material_font"
         android:textStyle="bold"
         android:layout_marginBottom="5dip"
         >
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dip"
-        android:fontFamily="@font/game_font"
+        android:fontFamily="@font/material_font"
         android:text="Postleitzahl: 85748 \n\nTelefonvorwahl: 089 \n\nAktuelle Einwohnerzahl: 17.760 (Stand Dez. 2019) \n\nErster Bürgermeister: Dieter Gruchmann (SPD)"
         android:textColor="@color/text"
         android:textSize="15sp">
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:text="Öffnungszeiten Rathaus:"
         android:textColor="@color/text"
-        android:fontFamily="@font/game_font"
+        android:fontFamily="@font/material_font"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="5dip"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:text="Montag - Freitag: 8 - 12 Uhr \nDonnerstag: 15 - 18 Uhr"
         android:textColor="@color/text"
-        android:fontFamily="@font/game_font"
+        android:fontFamily="@font/material_font"
         android:textSize="15sp"
         android:layout_marginBottom="40dip"
         >

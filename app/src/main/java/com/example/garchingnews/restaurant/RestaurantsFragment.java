@@ -36,11 +36,6 @@ public class RestaurantsFragment extends Fragment {
     public void initViews(View view) {
         recyclerView = view.findViewById(R.id.restaurant_list);
 
-        if (recyclerView == null) {
-            Log.e("Restaurant", "NULL");
-        } else
-            Log.e("Restaurant", "NON-NULL");
-
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(restaurantListAdapter);
