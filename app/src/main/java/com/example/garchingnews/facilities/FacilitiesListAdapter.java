@@ -39,7 +39,6 @@ public class FacilitiesListAdapter extends RecyclerView.Adapter<FacilitiesViewHo
 
         holder.facilityName.setText(facilitiesItemList.get(position).name);
         holder.facilityOpeningHours.setText(facilitiesItemList.get(position).openingHours);
-
         holder.facilityWebLinkIcon.setOnClickListener(click -> onWebLinkIconClicked(facilitiesItemList.get(position).webLink));
         holder.facilityPhoneCallIcon.setOnClickListener(click -> onPhoneCallIconClicked(facilitiesItemList.get(position).phoneNumber));
         holder.facilityNavigationIcon.setOnClickListener(click -> onNavIconClicked(facilitiesItemList.get(position).address));
