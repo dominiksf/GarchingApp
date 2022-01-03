@@ -2,6 +2,7 @@ package com.example.garchingnews.facilities;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -15,6 +16,7 @@ import com.example.garchingnews.restaurant.RestaurantsViewHolder;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FacilitiesListAdapter extends RecyclerView.Adapter<FacilitiesViewHolder> {
 
@@ -63,6 +65,29 @@ public class FacilitiesListAdapter extends RecyclerView.Adapter<FacilitiesViewHo
         facilitiesItemList = new ArrayList<>();
         facilitiesItemList.add(new FacilitiesItem("Werstoffhof", "Montag: 16:00 - 19:00 Uhr \nMittwoch: 09:00 - 12:00 Uhr \nDonnerstag: 16:00 - 19:00 Uhr \nFreitag14:00 - 17:00 Uhr \nSamstag: 09:00 - 13:00 Uhr", "www.google.com", "01748704076", "https://www.google.com/maps/dir//Garchinger+Wertstoffhof,+Brunnenweg,+Garching+bei+München/@48.2504532,11.6567168,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x479e72fc4f4285bb:0x2b364134c375488e!2m2!1d11.6567168!2d48.2504532!3e2", R.drawable.garching_image));
         facilitiesItemList.add(new FacilitiesItem("Stadtbücherei", "Montag: 11:00 - 20:00 Uhr \nDienstag - Freitag: 11:00 - 18:00 Uhr \n1.Samstag im Monat: 09:00 - 13:00 Uhr", "http://stadtbuechereigarching.de", "01748704076", "https://www.google.com/maps/dir//Stadtbücherei+Garching,+Bürgerplatz,+Garching+bei+München/@48.2502775,11.6537762,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x41090579d9a846af:0x59482b2b481cf201!2m2!1d11.6505212!2d48.2504378!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("Einkaufen", "Montag: 16:00 - 19:00 Uhr \nMittwoch: 09:00 - 12:00 Uhr \nDonnerstag: 16:00 - 19:00 Uhr \nFreitag14:00 - 17:00 Uhr \nSamstag: 09:00 - 13:00 Uhr", "www.google.com", "01748704076", "https://www.google.com/maps/dir//Garchinger+Wertstoffhof,+Brunnenweg,+Garching+bei+München/@48.2504532,11.6567168,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x479e72fc4f4285bb:0x2b364134c375488e!2m2!1d11.6567168!2d48.2504532!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("Markt", "Montag: 11:00 - 20:00 Uhr \nDienstag - Freitag: 11:00 - 18:00 Uhr \n1.Samstag im Monat: 09:00 - 13:00 Uhr", "http://stadtbuechereigarching.de", "01748704076", "https://www.google.com/maps/dir//Stadtbücherei+Garching,+Bürgerplatz,+Garching+bei+München/@48.2502775,11.6537762,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x41090579d9a846af:0x59482b2b481cf201!2m2!1d11.6505212!2d48.2504378!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("Eisdiele", "Montag: 16:00 - 19:00 Uhr \nMittwoch: 09:00 - 12:00 Uhr \nDonnerstag: 16:00 - 19:00 Uhr \nFreitag14:00 - 17:00 Uhr \nSamstag: 09:00 - 13:00 Uhr", "www.google.com", "01748704076", "https://www.google.com/maps/dir//Garchinger+Wertstoffhof,+Brunnenweg,+Garching+bei+München/@48.2504532,11.6567168,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x479e72fc4f4285bb:0x2b364134c375488e!2m2!1d11.6567168!2d48.2504532!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("Edeka", "Montag: 11:00 - 20:00 Uhr \nDienstag - Freitag: 11:00 - 18:00 Uhr \n1.Samstag im Monat: 09:00 - 13:00 Uhr", "http://stadtbuechereigarching.de", "01748704076", "https://www.google.com/maps/dir//Stadtbücherei+Garching,+Bürgerplatz,+Garching+bei+München/@48.2502775,11.6537762,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x41090579d9a846af:0x59482b2b481cf201!2m2!1d11.6505212!2d48.2504378!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("E-Tankstelle", "Montag: 16:00 - 19:00 Uhr \nMittwoch: 09:00 - 12:00 Uhr \nDonnerstag: 16:00 - 19:00 Uhr \nFreitag14:00 - 17:00 Uhr \nSamstag: 09:00 - 13:00 Uhr", "www.google.com", "01748704076", "https://www.google.com/maps/dir//Garchinger+Wertstoffhof,+Brunnenweg,+Garching+bei+München/@48.2504532,11.6567168,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x479e72fc4f4285bb:0x2b364134c375488e!2m2!1d11.6567168!2d48.2504532!3e2", R.drawable.garching_image));
+        facilitiesItemList.add(new FacilitiesItem("Elektromarkt", "Montag: 11:00 - 20:00 Uhr \nDienstag - Freitag: 11:00 - 18:00 Uhr \n1.Samstag im Monat: 09:00 - 13:00 Uhr", "http://stadtbuechereigarching.de", "01748704076", "https://www.google.com/maps/dir//Stadtbücherei+Garching,+Bürgerplatz,+Garching+bei+München/@48.2502775,11.6537762,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x41090579d9a846af:0x59482b2b481cf201!2m2!1d11.6505212!2d48.2504378!3e2", R.drawable.garching_image));
+
+
+
+    }
+
+    protected void filterFacilitiesData(String text) {
+
+        ArrayList<FacilitiesItem> temp = new ArrayList<>();
+
+        for(int i = 0; i < this.facilitiesItemList.size(); i++) {
+            if(this.facilitiesItemList.get(i).name.contains(text)) {
+                temp.add(this.facilitiesItemList.get(i));
+            }
+        }
+
+        this.facilitiesItemList = temp;
+
     }
 
     @Override

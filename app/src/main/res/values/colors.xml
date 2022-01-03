@@ -16,4 +16,7 @@
 
     <color name="button_background">@color/main_color</color>
 
+    <color name="U6">#0065AE</color>
+
+
 </resources>

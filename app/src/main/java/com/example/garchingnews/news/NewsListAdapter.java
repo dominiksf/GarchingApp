@@ -22,9 +22,6 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsViewHolder> {
     SimpleDateFormat parser = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz", Locale.US);
     SimpleDateFormat outputFormat = new SimpleDateFormat("dd.MM.yyyy, HH:mm", Locale.GERMAN);
 
-
-    // EEE, dd MM yyyy HH:mm:ss z
-
     @NonNull
     @Override
     public NewsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -43,11 +40,6 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsViewHolder> {
     }
 
     public void onNewsClick(View view, NewsItem newsItem) {
-        /*
-        Uri uri = Uri.parse(newsItem.link);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        view.getContext().startActivity(intent);
-         */
 
         Intent intent = new Intent(view.getContext(), WebBrowserActivity.class);
         intent.putExtra("URL", newsItem.link);
@@ -66,14 +58,14 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsViewHolder> {
     }
 
     public String parseTime(NewsItem newsItem) {
-            try {
-                Date date = parser.parse(newsItem.publishTime);
-                Log.e("TIME", date.toString());
-                return outputFormat.format(date) + " Uhr";
-            } catch (ParseException e) {
-                e.printStackTrace();
-                return "-";
-            }
+        try {
+            Date date = parser.parse(newsItem.publishTime);
+            Log.e("TIME", date.toString());
+            return outputFormat.format(date) + " Uhr";
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return "-";
+        }
     }
 
     public Feed getFeed() {

@@ -40,6 +40,7 @@ public class FacilitiesFragment extends Fragment {
 
         facilitiesListAdapter.initFacilitiesData();
 
+
     }
 
 }

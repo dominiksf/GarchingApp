@@ -23,7 +23,9 @@
             <item
                 android:id="@+id/administration"
                 android:title="Rathaus"
-                android:icon="@drawable/administration"></item>
+                android:icon="@drawable/administration">
+
+            </item>
 
             <item
                 android:id="@+id/facilities"
@@ -31,6 +33,17 @@
                 android:icon="@drawable/facilities">
 
             </item>
+
+            <item
+                android:id="@+id/departure"
+                android:title="U-Bahn"
+                android:icon="@drawable/ic_baseline_train_24"
+                >
+
+            </item>
+
+
+
 
         </menu>
     </item>
@@ -58,14 +71,6 @@
         <menu
             >
 
-            <item
-
-                android:id="@+id/settings"
-                android:title="Einstellungen"
-                android:icon="@drawable/ic_baseline_settings_24"
-                >
-
-            </item>
 
             <item
                 android:id="@+id/credits"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main.xml"
     app:startDestination="@id/news">
 
@@ -13,6 +14,7 @@
         android:id="@+id/administration"
         android:name="com.example.garchingnews.information.AdministrationFragment"
         android:label="Rathaus" />
+
     <fragment
         android:id="@+id/links"
         android:name="com.example.garchingnews.information.LinksFragment"
@@ -30,6 +32,12 @@
         android:name="com.example.garchingnews.main.SettingsFragment"
         android:label="Einstellungen" />
     <fragment
+        android:id="@+id/departure"
+        android:name="com.example.garchingnews.mvg.DepartureFragment"
+        android:label="U-Bahn Abfahrten">
+
+    </fragment>
+    <fragment
         android:id="@+id/facilities"
         android:name="com.example.garchingnews.facilities.FacilitiesFragment"
         android:label="Einrichtungen" />
@@ -37,5 +45,6 @@
         android:id="@+id/restaurants"
         android:name="com.example.garchingnews.restaurant.RestaurantsFragment"
         android:label="Restaurants" />
+
 
 </navigation>
